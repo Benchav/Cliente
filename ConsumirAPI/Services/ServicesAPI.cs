@@ -5,7 +5,7 @@ namespace ConsumirAPI.Servicios
 {
     public class ServicesAPI : IServicesAPI
     {
-        public static  string _base;
+        public static  string _baseurl;
 
         public ServicesAPI()
         {
@@ -13,22 +13,22 @@ namespace ConsumirAPI.Servicios
                 ConfigurationBuilder().SetBasePath(
                 Directory.GetCurrentDirectory()).AddJsonFile("appsettings.json").Build();
 
-            _base = builder.GetSection("ApiSetting:baseUr1").Value;
+            _baseurl = builder.GetSection("ApiSetting:baseUrl").Value;
         }
 
-        public async Task<List<ModCategoria>> Lista()
+        public async Task<List<ModeloCategoria>> Lista()
         {
-            List<ModCategoria> lista = new List<ModCategoria>();
+            List<ModeloCategoria> lista = new List<ModeloCategoria>();
 
             var cliente = new HttpClient();
-            cliente.BaseAddress = new Uri( _base );
+            cliente.BaseAddress = new Uri(_baseurl);
 
-            var response = await cliente.GetAsync("/categoria/listar");
+            var response = await cliente.GetAsync("/Categoria/listar");
             if (response.IsSuccessStatusCode)
             {
                 var json_respuesta = await response.Content.ReadAsStringAsync();
-                var resultado = JsonConvert.DeserializeObject<List<ModCategoria>>
-                    (json_respuesta);
+                var resultado = JsonConvert.DeserializeObject<List<ModeloCategoria>>(json_respuesta);
+
                 lista = resultado;
             }
             return lista;

@@ -3,10 +3,17 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - ConsumirAPI</title>
+    <title>@ViewData["Title"] - Sistema</title>
+
+    <link rel="stylesheet" href="~/bootstrap-5.0.2-dist/Alpha/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/css/sweetalert2.css" />
+    <link rel="stylesheet" type="text/css" href="~/bootstrap-5.0.2-dist/Alpha/Alpha1/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/DataTables/DataTables-1.13.6/css/dataTables.bootstrap.min.css" />
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/ConsumirAPI.styles.css" asp-append-version="true" />
+
+
 </head>
 <body>
     <header>
@@ -28,6 +35,7 @@
                     </ul>
                 </div>
             </div>
+
         </nav>
     </header>
     <div class="container">
@@ -41,9 +49,25 @@
             &copy; 2024 - ConsumirAPI - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
+
+    <script src="~/js/sweetalert2.all.js"></script>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+
+
+    <script type="text/javascript" src="~/DataTables/JsZip-3.10.1/jszip.min.js"></script>
+    <script type="text/javascript" src="~/DataTables/pdfmake-0.1.36/pdfmake.min.js"></script>
+    <script type="text/javascript" src="~/DataTables/pdfmake-0.2.7/vfs_fonts.js"></script>
+    <script type="text/javascript" src="~/DataTables/Datatables-1.13.6/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="~/DataTables/DataTables-1.13.6/js/dataTables.bootstrap5.min.js"></script>
+    <script type="text/javascript" src="~/DataTables/Buttons-2.4.2/js/dataTables.buttons.min.js"></script>
+    <script type="text/javascript" src="~/DataTables/Buttons-2.4.2/js/buttons.bootstrap5.min.js"></script>
+    <script type="text/javascript" src="~/DataTables/Buttons-2.4.2/js/buttons.colVis.min.js"></script>
+    <script type="text/javascript" src="~/DataTables/Buttons-2.4.2/js/buttons.html5.min.js"></script>
+    <script type="text/javascript" src="~/DataTables/Buttons-2.4.2/js/buttons.print.min.js"></script>
+3
+
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

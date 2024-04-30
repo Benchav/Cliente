@@ -20,7 +20,7 @@ namespace ConsumirAPI.Controllers
 
         public async Task<IActionResult> Obtener()
         {
-            List<ModCategoria> lista = await _servicesAPI.Lista();
+            List<ModeloCategoria> lista = await _servicesAPI.Lista();
 
             return Json(new { data = lista });
         }

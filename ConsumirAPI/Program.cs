@@ -1,7 +1,10 @@
+using ConsumirAPI.Servicios;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<IServicesAPI, ServicesAPI>();
 
 var app = builder.Build();
 

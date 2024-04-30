@@ -4,6 +4,6 @@ namespace ConsumirAPI.Servicios
 {
     public interface IServicesAPI
     {
-        Task<List<ModCategoria>> Lista();
+     public Task<List<ModeloCategoria>> Lista();
     }
 }
