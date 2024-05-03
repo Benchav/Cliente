@@ -4,10 +4,10 @@ $(document).ready(function () {
     //validamos el formulario
     $("#form").validate({
         rules: {
-            NombreCategoria: "required"
+            Descripcion: "required"
         },
         messages: {
-            NombreCategoria: "(Este campo obligatorio)"
+            Descripcion: "(Este campo obligatorio)"
 
         },
         errorElement: 'span'
@@ -26,10 +26,10 @@ $(document).ready(function () {
         "columns": [
             { "data": "id" },
             { "data": "descripcion" },
-            { "data": "estado" },
-            { "data": "fechaCreacion"  },
+            /*{ "data": "estado" },*/
+            
 
-        /*   {
+            {
                 "data": "estado", "render": function (data) {
                     if (data) {
                         return '<span class="badge badge-success">Activo</span>'
@@ -38,7 +38,9 @@ $(document).ready(function () {
                     }
                 },
 
-            },*/
+            },
+
+            { "data": "fechaCreacion" },
 
             {
                 "data": "id", "render": function (data, type, row, meta) {
@@ -237,19 +239,19 @@ $(document).ready(function () {
 
 function abrirPopUpForm(json) {
 
-    $("#txtid").val(0);
+    /*$("#txtid").val(0);*/
 
     if (json != null) {
 
-        $("#txtid").val(json.codigoCategoria);
-        $("#txtNombreCategoria").val(json.nombreCategoria);
+        $("#txtid").val(json.id);
         $("#txtDescripcion").val(json.descripcion);
         $("#cboEstado").val(json.estado == true ? 1 : 0);
+        $("#txtFechaCreacion").val(json.fechaCreacion);
 
     } else {
-        $("#txtNombreCategoria").val("");
         $("#txtDescripcion").val("");
         $("#cboEstado").val();
+        $("#txtFechaCreacion").val();
     }
 
     $('#FormModal').modal('show');
@@ -260,15 +262,15 @@ function Guardar() {
 
     if ($("#form").valid()) {
         var request = {
-            codigocategoria: parseInt($("#txtid").val()),
-            nombrecategoria: $("#txtNombreCategoria").val(),
+            id: $("#txtid").val(),
             descripcion: ($("#txtDescripcion").val() != "" ? $("#txtDescripcion").val() : ""),
-            estado: ($("#cboEstado").val() == "1" ? true : false)
+            estado: ($("#cboEstado").val() == "1" ? true : false),
+            fechaCreacion: ($("#txtFechaCreacion").val() != "" ? $("#txtFechaCreacion").val() : ""),
 
         }
         jQuery.ajax({
-            url: "/Categoria/Guardar",
-            type: "POST",
+        url: "/Categoria/Guardar",
+            type: "PUT",
             data: request,
             success: function (data) {
 

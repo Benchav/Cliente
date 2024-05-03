@@ -25,9 +25,53 @@ namespace ConsumirAPI.Controllers
             return Json(new { data = lista });
         }
 
+
+           public async Task<IActionResult> Guardar(ModeloCategoria ObjCat)
+           {
+               bool respuesta = false;
+
+               Console.WriteLine(ObjCat);
+
+               if (ObjCat.Id == Guid.Empty)
+               {
+
+                   respuesta = await _servicesAPI.Insertar(ObjCat);
+               }
+               else
+               {
+                   respuesta = await _servicesAPI.EditarCategorias(ObjCat);
+               }
+               return Json(new { resultado = respuesta });
+           }
+
+        public async Task<IActionResult> Eliminar(Guid ID)
+        {
+            bool respuesta = false;
+
+            if (ID != Guid.Empty)
+            {
+
+                respuesta = await _servicesAPI.Delete(ID);
+            }
+
+            return Json(new { resultado = respuesta });
+        }
+
+
+
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId= Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+
+
+
+
+
+
+
+
+
     }
 }
