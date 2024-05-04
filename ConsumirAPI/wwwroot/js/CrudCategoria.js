@@ -1,7 +1,6 @@
 ﻿var tabladata;
 $(document).ready(function () {
-
-    //validamos el formulario
+//validacion de formulario
     $("#form").validate({
         rules: {
             Descripcion: "required"
@@ -14,8 +13,6 @@ $(document).ready(function () {
     });
 
 
-
-    //////////////////////////
     tabladata = $('#tbdata').DataTable({
 
         "ajax": {
@@ -26,9 +23,7 @@ $(document).ready(function () {
         "columns": [
             { "data": "id" },
             { "data": "descripcion" },
-            /*{ "data": "estado" },*/
             
-
             {
                 "data": "estado", "render": function (data) {
                     if (data) {
@@ -45,7 +40,7 @@ $(document).ready(function () {
             {
                 "data": "id", "render": function (data, type, row, meta) {
                     return "<button class='btn btn-primary btn-sm' type='button' onclick='abrirPopUpForm(" + JSON.stringify(row) + ")'><i class='fas fa-pen'></i>Editar</button>" +
-                        "<button class='btn btn-danger btn-sm ml-2' type='button' onclick='eliminar(" + data + ")'><i class='fa fa-trash'></i>Eliminar</button>"
+                        "<button class='btn btn-danger btn-sm ml-2' type='button' onclick='Eliminar(" + data + ")'><i class='fa fa-trash'></i>Eliminar</button>"
                 },
                 "orderable": false,
                 "searchable": false,
@@ -236,10 +231,7 @@ $(document).ready(function () {
 
 })
 
-
 function abrirPopUpForm(json) {
-
-    /*$("#txtid").val(0);*/
 
     if (json != null) {
 
@@ -294,9 +286,7 @@ function Guardar() {
 
 }
 
-
-
-function eliminar($id) {
+function Eliminar($id) {
 
     Swal.fire({
         title: 'Está seguro de eliminar el registro?',
@@ -310,7 +300,7 @@ function eliminar($id) {
     }).then((result) => {
         if (result.isConfirmed) {
             jQuery.ajax({
-                url: "/Categoria/Eliminar" + "?cod=" + $id,
+                url: "/Categoria/Eliminar{Id}" + "?cod=" + $id,
                 type: "DELETE",
                 dataType: "json",
                 contentType: "application/json; charset=utf-8",

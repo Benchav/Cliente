@@ -29,7 +29,7 @@ namespace ConsumirAPI.Controllers
            public async Task<IActionResult> Guardar(ModeloCategoria ObjCat)
            {
                bool respuesta = false;
-
+            //
                Console.WriteLine(ObjCat);
 
                if (ObjCat.Id == Guid.Empty)
@@ -44,14 +44,14 @@ namespace ConsumirAPI.Controllers
                return Json(new { resultado = respuesta });
            }
 
-        public async Task<IActionResult> Eliminar(Guid ID)
+        public async Task<IActionResult> Eliminar(Guid ICat)
         {
             bool respuesta = false;
 
-            if (ID != Guid.Empty)
+            if (ICat != Guid.Empty)
             {
 
-                respuesta = await _servicesAPI.Delete(ID);
+                respuesta = await _servicesAPI.Delete(ICat);
             }
 
             return Json(new { resultado = respuesta });

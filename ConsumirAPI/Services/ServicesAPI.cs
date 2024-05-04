@@ -77,7 +77,7 @@ namespace ConsumirAPI.Servicios
             var cliente = new HttpClient();
             cliente.BaseAddress = new Uri(_baseurl);
 
-            var response = await cliente.DeleteAsync($"/Categoria/Eliminar/{id}");
+            var response = await cliente.DeleteAsync("/Categoria/Eliminar/{Id}");
             if (response.IsSuccessStatusCode)
             {
                 respuesta = true;

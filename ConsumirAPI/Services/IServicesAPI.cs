@@ -7,9 +7,7 @@ namespace ConsumirAPI.Servicios
      public Task<List<ModeloCategoria>> Lista();
 
       public Task<bool> EditarCategorias(ModeloCategoria mc);
-
-     //   Task EditarCategorias(ModeloCategoria mc);
-        Task<bool> Insertar(ModeloCategoria mc);
-        Task<bool> Delete(Guid id);
+      public  Task<bool> Insertar(ModeloCategoria mc);
+      public Task<bool> Delete(Guid id);
     }
 }
