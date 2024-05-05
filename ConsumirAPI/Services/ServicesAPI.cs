@@ -70,21 +70,21 @@ namespace ConsumirAPI.Servicios
         }
 
 
-        public async Task<bool> Delete(Guid id)
+        public async Task<bool> Delete(Guid Id)
         {
             bool respuesta = false;
 
             var cliente = new HttpClient();
             cliente.BaseAddress = new Uri(_baseurl);
+           // var content = new StringContent(JsonConvert.SerializeObject(Id), Encoding.UTF8, "application/json");
 
-            var response = await cliente.DeleteAsync("/Categoria/Eliminar/{Id}");
+            var response = await cliente.DeleteAsync($"/Categoria/Eliminar/{Id}");
             if (response.IsSuccessStatusCode)
             {
                 respuesta = true;
             }
             return respuesta;
         }
-
 
     }
 }

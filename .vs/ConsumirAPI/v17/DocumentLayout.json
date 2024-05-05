@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9E8EBBA1-2AF5-4587-AF72-DCCBECB81D03}|ConsumirAPI\\ConsumirAPI.csproj|c:\\users\\joshu\\desktop\\consumirapi\\consumirapi\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E8EBBA1-2AF5-4587-AF72-DCCBECB81D03}|ConsumirAPI\\ConsumirAPI.csproj|solutionrelative:consumirapi\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E8EBBA1-2AF5-4587-AF72-DCCBECB81D03}|ConsumirAPI\\ConsumirAPI.csproj|c:\\users\\joshu\\desktop\\consumirapi\\consumirapi\\services\\servicesapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E8EBBA1-2AF5-4587-AF72-DCCBECB81D03}|ConsumirAPI\\ConsumirAPI.csproj|solutionrelative:consumirapi\\services\\servicesapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9E8EBBA1-2AF5-4587-AF72-DCCBECB81D03}|ConsumirAPI\\ConsumirAPI.csproj|c:\\users\\joshu\\desktop\\consumirapi\\consumirapi\\wwwroot\\js\\crudcategoria.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{9E8EBBA1-2AF5-4587-AF72-DCCBECB81D03}|ConsumirAPI\\ConsumirAPI.csproj|solutionrelative:consumirapi\\wwwroot\\js\\crudcategoria.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9E8EBBA1-2AF5-4587-AF72-DCCBECB81D03}|ConsumirAPI\\ConsumirAPI.csproj|c:\\users\\joshu\\desktop\\consumirapi\\consumirapi\\services\\iservicesapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E8EBBA1-2AF5-4587-AF72-DCCBECB81D03}|ConsumirAPI\\ConsumirAPI.csproj|solutionrelative:consumirapi\\services\\iservicesapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9E8EBBA1-2AF5-4587-AF72-DCCBECB81D03}|ConsumirAPI\\ConsumirAPI.csproj|c:\\users\\joshu\\desktop\\consumirapi\\consumirapi\\views\\categoria\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9E8EBBA1-2AF5-4587-AF72-DCCBECB81D03}|ConsumirAPI\\ConsumirAPI.csproj|solutionrelative:consumirapi\\views\\categoria\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E8EBBA1-2AF5-4587-AF72-DCCBECB81D03}|ConsumirAPI\\ConsumirAPI.csproj|c:\\users\\joshu\\desktop\\consumirapi\\consumirapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9E8EBBA1-2AF5-4587-AF72-DCCBECB81D03}|ConsumirAPI\\ConsumirAPI.csproj|solutionrelative:consumirapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E8EBBA1-2AF5-4587-AF72-DCCBECB81D03}|ConsumirAPI\\ConsumirAPI.csproj|c:\\users\\joshu\\desktop\\consumirapi\\consumirapi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9E8EBBA1-2AF5-4587-AF72-DCCBECB81D03}|ConsumirAPI\\ConsumirAPI.csproj|solutionrelative:consumirapi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,54 +34,67 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "ConsumirAPI\\appsettings.json",
-              "ToolTip": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\appsettings.json",
-              "RelativeToolTip": "ConsumirAPI\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-04T00:45:03.652Z",
+              "DocumentIndex": 3,
+              "Title": "IServicesAPI.cs",
+              "DocumentMoniker": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\Services\\IServicesAPI.cs",
+              "RelativeDocumentMoniker": "ConsumirAPI\\Services\\IServicesAPI.cs",
+              "ToolTip": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\Services\\IServicesAPI.cs",
+              "RelativeToolTip": "ConsumirAPI\\Services\\IServicesAPI.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T00:32:25.744Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CrudCategoria.js",
-              "DocumentMoniker": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\wwwroot\\js\\CrudCategoria.js",
-              "RelativeDocumentMoniker": "ConsumirAPI\\wwwroot\\js\\CrudCategoria.js",
-              "ToolTip": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\wwwroot\\js\\CrudCategoria.js",
-              "RelativeToolTip": "ConsumirAPI\\wwwroot\\js\\CrudCategoria.js",
-              "ViewState": "AQIAAAoBAAAAAAAAAAAYwB4BAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-05-04T00:28:39.901Z",
+              "Title": "CategoriaController.cs",
+              "DocumentMoniker": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\Controllers\\CategoriaController.cs",
+              "RelativeDocumentMoniker": "ConsumirAPI\\Controllers\\CategoriaController.cs",
+              "ToolTip": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\Controllers\\CategoriaController.cs",
+              "RelativeToolTip": "ConsumirAPI\\Controllers\\CategoriaController.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAIAwwDIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T21:30:18.97Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Crear.cshtml",
               "DocumentMoniker": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\Views\\Categoria\\Crear.cshtml",
               "RelativeDocumentMoniker": "ConsumirAPI\\Views\\Categoria\\Crear.cshtml",
               "ToolTip": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\Views\\Categoria\\Crear.cshtml",
               "RelativeToolTip": "ConsumirAPI\\Views\\Categoria\\Crear.cshtml",
-              "ViewState": "AQIAAEoAAAAAAAAAAAAAAFYAAABrAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAUwFEAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-04T00:09:59.613Z",
+              "WhenOpened": "2024-05-04T18:23:34.047Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "ConsumirAPI\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "ConsumirAPI\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAACkAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-04T00:08:56.122Z",
+              "DocumentIndex": 1,
+              "Title": "ServicesAPI.cs",
+              "DocumentMoniker": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\Services\\ServicesAPI.cs",
+              "RelativeDocumentMoniker": "ConsumirAPI\\Services\\ServicesAPI.cs",
+              "ToolTip": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\Services\\ServicesAPI.cs",
+              "RelativeToolTip": "ConsumirAPI\\Services\\ServicesAPI.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAhwCMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T18:16:30.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CrudCategoria.js",
+              "DocumentMoniker": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\wwwroot\\js\\CrudCategoria.js",
+              "RelativeDocumentMoniker": "ConsumirAPI\\wwwroot\\js\\CrudCategoria.js",
+              "ToolTip": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\wwwroot\\js\\CrudCategoria.js",
+              "RelativeToolTip": "ConsumirAPI\\wwwroot\\js\\CrudCategoria.js",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAQwCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-04T00:28:39.901Z",
               "EditorCaption": ""
             }
           ]

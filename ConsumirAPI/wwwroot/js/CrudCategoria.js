@@ -1,6 +1,6 @@
 ﻿var tabladata;
 $(document).ready(function () {
-//validacion de formulario
+
     $("#form").validate({
         rules: {
             Descripcion: "required"
@@ -39,8 +39,8 @@ $(document).ready(function () {
 
             {
                 "data": "id", "render": function (data, type, row, meta) {
-                    return "<button class='btn btn-primary btn-sm' type='button' onclick='abrirPopUpForm(" + JSON.stringify(row) + ")'><i class='fas fa-pen'></i>Editar</button>" +
-                        "<button class='btn btn-danger btn-sm ml-2' type='button' onclick='Eliminar(" + data + ")'><i class='fa fa-trash'></i>Eliminar</button>"
+                    return "<button class='btn btn-primary btn-sm' type='button' onclick=' "+ "abrirPopUpForm(" + JSON.stringify(row) + ")'><i class='fas fa-pen'></i>Editar</button>" +
+                        "<button class='btn btn-danger btn-sm m1-2' type='button'" + " onclick='Eliminar(" + JSON.stringify(data) + ")'><i class='fa fa-trash'></i>Eliminar</button>"
                 },
                 "orderable": false,
                 "searchable": false,
@@ -241,6 +241,7 @@ function abrirPopUpForm(json) {
         $("#txtFechaCreacion").val(json.fechaCreacion);
 
     } else {
+    //    $("#txtid").val(json.id);
         $("#txtDescripcion").val("");
         $("#cboEstado").val();
         $("#txtFechaCreacion").val();
@@ -286,7 +287,7 @@ function Guardar() {
 
 }
 
-function Eliminar($id) {
+function Eliminar($Id) {
 
     Swal.fire({
         title: 'Está seguro de eliminar el registro?',
@@ -296,11 +297,12 @@ function Eliminar($id) {
         confirmButtonColor: '#3085d6',
         cancelButtonColor: '#d33',
         confirmButtonText: 'Si, Eliminarlo',
-        cancelButtonText: 'Cancelar eliminación'
+        cancelButtonText: 'Cancelar Eliminación'
     }).then((result) => {
         if (result.isConfirmed) {
             jQuery.ajax({
-                url: "/Categoria/Eliminar{Id}" + "?cod=" + $id,
+                // url: "/Categoria/Eliminar" + "?id=" + $Id,
+                url: "/Categoria/Eliminar?id=" + $Id,
                 type: "DELETE",
                 dataType: "json",
                 contentType: "application/json; charset=utf-8",
@@ -324,7 +326,6 @@ function Eliminar($id) {
 
                 },
             });
-
         }
     },
     );

@@ -8,6 +8,6 @@ namespace ConsumirAPI.Servicios
 
       public Task<bool> EditarCategorias(ModeloCategoria mc);
       public  Task<bool> Insertar(ModeloCategoria mc);
-      public Task<bool> Delete(Guid id);
+      public Task<bool> Delete(Guid Id);
     }
 }
