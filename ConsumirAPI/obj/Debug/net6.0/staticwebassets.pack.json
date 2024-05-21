@@ -613,6 +613,10 @@
       "PackagePath": "staticwebassets\\js\\assets\\bootstrap\\css\\bootstrap.min.css.map"
     },
     {
+      "Id": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\wwwroot\\js\\assets\\bootstrap\\css\\styles.css",
+      "PackagePath": "staticwebassets\\js\\assets\\bootstrap\\css\\styles.css"
+    },
+    {
       "Id": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\wwwroot\\js\\assets\\bootstrap\\fonts\\glyphicons-halflings-regular.eot",
       "PackagePath": "staticwebassets\\js\\assets\\bootstrap\\fonts\\glyphicons-halflings-regular.eot"
     },
@@ -643,6 +647,10 @@
     {
       "Id": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\wwwroot\\js\\assets\\bootstrap\\js\\npm.js",
       "PackagePath": "staticwebassets\\js\\assets\\bootstrap\\js\\npm.js"
+    },
+    {
+      "Id": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\wwwroot\\js\\assets\\bootstrap\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\js\\assets\\bootstrap\\js\\scripts.js"
     },
     {
       "Id": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\wwwroot\\js\\assets\\swal2\\sweetalert2.min.css",

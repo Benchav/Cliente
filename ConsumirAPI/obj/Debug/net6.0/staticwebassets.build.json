@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zmskKNDXbH5AfHpEBrbBKSvqSaw7ZSgDCbBboPgk3ko=",
+  "Hash": "pshEFj78nBVuaRoYQoM+9kkWGsqIdrouAvFzl4eMHLg=",
   "Source": "ConsumirAPI",
   "BasePath": "_content/ConsumirAPI",
   "Mode": "Default",
@@ -2924,6 +2924,25 @@
       "OriginalItemSpec": "wwwroot\\js\\assets\\bootstrap\\css\\bootstrap-theme.min.css.map"
     },
     {
+      "Identity": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\wwwroot\\js\\assets\\bootstrap\\css\\styles.css",
+      "SourceId": "ConsumirAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\wwwroot\\",
+      "BasePath": "_content/ConsumirAPI",
+      "RelativePath": "js/assets/bootstrap/css/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\assets\\bootstrap\\css\\styles.css"
+    },
+    {
       "Identity": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\wwwroot\\js\\assets\\bootstrap\\fonts\\glyphicons-halflings-regular.eot",
       "SourceId": "ConsumirAPI",
       "SourceType": "Discovered",
@@ -3074,6 +3093,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\assets\\bootstrap\\js\\npm.js"
+    },
+    {
+      "Identity": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\wwwroot\\js\\assets\\bootstrap\\js\\scripts.js",
+      "SourceId": "ConsumirAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\wwwroot\\",
+      "BasePath": "_content/ConsumirAPI",
+      "RelativePath": "js/assets/bootstrap/js/scripts.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\assets\\bootstrap\\js\\scripts.js"
     },
     {
       "Identity": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\wwwroot\\js\\assets\\swal2\\sweetalert2.min.css",

@@ -65,3 +65,4 @@ C:\Users\joshu\Desktop\ConsumirAPI\ConsumirAPI\obj\Debug\net6.0\refint\ConsumirA
 C:\Users\joshu\Desktop\ConsumirAPI\ConsumirAPI\obj\Debug\net6.0\ConsumirAPI.pdb
 C:\Users\joshu\Desktop\ConsumirAPI\ConsumirAPI\obj\Debug\net6.0\ConsumirAPI.genruntimeconfig.cache
 C:\Users\joshu\Desktop\ConsumirAPI\ConsumirAPI\obj\Debug\net6.0\ref\ConsumirAPI.dll
+C:\Users\joshu\Desktop\ConsumirAPI\ConsumirAPI\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout1.cshtml.rz.scp.css

@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9E8EBBA1-2AF5-4587-AF72-DCCBECB81D03}|ConsumirAPI\\ConsumirAPI.csproj|c:\\users\\joshu\\desktop\\consumirapi\\consumirapi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E8EBBA1-2AF5-4587-AF72-DCCBECB81D03}|ConsumirAPI\\ConsumirAPI.csproj|solutionrelative:consumirapi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E8EBBA1-2AF5-4587-AF72-DCCBECB81D03}|ConsumirAPI\\ConsumirAPI.csproj|c:\\users\\joshu\\desktop\\consumirapi\\consumirapi\\views\\shared\\_layout1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E8EBBA1-2AF5-4587-AF72-DCCBECB81D03}|ConsumirAPI\\ConsumirAPI.csproj|solutionrelative:consumirapi\\views\\shared\\_layout1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout1.cshtml",
+              "DocumentMoniker": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\Views\\Shared\\_Layout1.cshtml",
+              "RelativeDocumentMoniker": "ConsumirAPI\\Views\\Shared\\_Layout1.cshtml",
+              "ToolTip": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\Views\\Shared\\_Layout1.cshtml",
+              "RelativeToolTip": "ConsumirAPI\\Views\\Shared\\_Layout1.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-20T22:26:01.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ConsumirAPI\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ConsumirAPI\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-20T18:57:14.985Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
