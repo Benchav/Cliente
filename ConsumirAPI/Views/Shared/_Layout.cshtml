@@ -16,48 +16,44 @@
 
 </head>
 <body>
-    <header>   
-        
-         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+    <header>
+
+        <!DOCTYPE html>
+        <html lang="es">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Plantilla de Insumos Barrera</title>
+
+        </head>
+        <body style="background-color: #D3D3D3;">
+        <!-- Barra de navegación -->
+        <nav class="navbar" style="background-color: #4169E1;">
             <div class="container">
-                <a class="navbar-brand" href="#page-top"> Home</a>
-                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto">
-                         <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-controller="Categoria" asp-action="Crear">Categoria</a></li>
-                        
-                  
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#Producto">Producto</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contacto">Contacto</a></li>
-                    </ul>
-                </div>
+                @*  <button type="submit">Home</button> *@
+                <a class="navbar-brand text-white" href="#">Inicio</a>
+                <ul class="nav-links">
+                    <li><a class="nav-link text-white" asp-area="" asp-controller="Categoria" asp-action="Crear">Categoria</a></li>
+                    <li><a class="nav-link text-white" href="#">Inventario</a></li>
+                    <li><a class="nav-link text-white" href="#">Información</a></li>
+                </ul>
             </div>
         </nav>
-
-
-        <br />
-         <header class="masthead bg-primary text-white text-center">
-            <div class="container d-flex align-items-center flex-column">
-                <!-- Masthead Avatar Image-->
-                <img class="masthead-avatar mb-5" src="https://th.bing.com/th/id/OIP.Vl2RI1KmV3deJP7PrCl-cgHaFj?rs=1&pid=ImgDetMain" alt="..." />
-                <!-- Masthead Heading-->
-                <h1 class="masthead-heading text-uppercase mb-0">Bienvenido</h1>
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
+        
+      
+            <br />
+            <header class="masthead bg-primary text-white text-center">
                 <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-light mb-0">Jinotepe - Carazo</p>
-            </div>
-        </header>
-
+                <p class="masthead-subheading font-weight-light mb-0 text-white">Bienvenidos</p>
+                </div>
+                <div class="content" style="background-color: #D3D3D3;">
+                    <div class="logo">
+                        <!-- Aquí puedes insertar el logotipo de tu empresa -->
+                        <img class="masthead-avatar mb-1" src="https://pngimg.com/uploads/flour/flour_PNG25.png" alt="..." />
+                        <!-- Fin-->
+                    </div
+                     </body>
+    </html>
     
     </header>
     <div class="container">

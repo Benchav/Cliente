@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Interfaz</title>
+
+    <link rel="stylesheet" href="~/bootstrap-5.0.2-dist/Alpha/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/css/sweetalert2.css" />
+    <link rel="stylesheet" type="text/css" href="~/bootstrap-5.0.2-dist/Alpha/Alpha1/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/DataTables/DataTables-1.13.6/css/dataTables.bootstrap.min.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/ConsumirAPI.styles.css" asp-append-version="true" />
+
+
+</head>
+<body>
+    <header>
+
+        <!DOCTYPE html>
+        <html lang="es">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Plantilla de Insumos Barrera</title>
+        </head>
+        <body style="background-color: #D3D3D3;">
+            <!-- Barra de navegación -->
+            <nav class="navbar" style="background-color: #4169E1;">
+                <div class="container">
+                   @*  <button type="submit">Home</button> *@
+                    <a class="navbar-brand text-white" href="#">Inicio</a>
+                    <ul class="nav-links">
+                        <li><a class="nav-link text-white" asp-area="" asp-controller="Categoria" asp-action="Crear">Categoria</a></li>
+                        <li><a class="nav-link text-white" href="#">Inventario</a></li>
+                        <li><a class="nav-link text-white" href="#">Información</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+
+            <br />
+            <header class="masthead bg-primary text-white text-center">
+                <!-- Masthead Subheading-->
+                <p class="masthead-subheading font-weight-light mb-0 text-white">Bienvenidos</p>
+                </div>
+              @*   <div class="container d-flex align-items-center flex-column"> *@
+            <!-- Contenido principal -->
+            <div class="content" style="background-color: #D3D3D3;">
+                <div class="logo">
+                    <!-- Aquí puedes insertar el logotipo de tu empresa -->
+                    <img class="masthead-avatar mb-1" src="https://pngimg.com/uploads/flour/flour_PNG25.png" alt="..." />
+                    <!-- Fin-->
+                </div>
+
+                <div class="contact-form">
+                    <h2>Iniciar sesión</h2>
+                    @*  <form id="login-form" action="Categoria/Crear"> *@
+                        <form id="login-form" action="@Url.Action("Indexn")" method="get">
+                        <input type="text" placeholder="Usuario">
+                        <input type="password" placeholder="Contraseña">
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+
+                <div class="about">
+                    <h3>Acerca de Insumos Barrera</h3>
+                    <p>Insumos Barrea es una empresa que ha venido creciendo con el paso del tiempo de manera favorable, garantizando fidelidad y compromiso con los clientes.</p>
+                </div>
+            </div>
+        </body>
+    </html>
+
+
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+        @RenderBody()
+        </main>
+    </div>
+
+   
+
+    <script src="~/js/sweetalert2.all.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+
+    <script type="text/javascript" src="~/DataTables/JsZip-3.10.1/jszip.min.js"></script>
+    <script type="text/javascript" src="~/DataTables/pdfmake-0.2.7/pdfmake.min.js"></script>
+    <script type="text/javascript" src="~/DataTables/pdfmake-0.2.7/vfs_fonts.js"></script>
+    <script type="text/javascript" src="~/DataTables/Datatables-1.13.6/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="~/DataTables/DataTables-1.13.6/js/dataTables.bootstrap5.min.js"></script>
+    <script type="text/javascript" src="~/DataTables/Buttons-2.4.2/js/dataTables.buttons.min.js"></script>
+    <script type="text/javascript" src="~/DataTables/Buttons-2.4.2/js/buttons.bootstrap5.min.js"></script>
+    <script type="text/javascript" src="~/DataTables/Buttons-2.4.2/js/buttons.colVis.min.js"></script>
+    <script type="text/javascript" src="~/DataTables/Buttons-2.4.2/js/buttons.html5.min.js"></script>
+    <script type="text/javascript" src="~/DataTables/Buttons-2.4.2/js/buttons.print.min.js"></script>
+
+
+@await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

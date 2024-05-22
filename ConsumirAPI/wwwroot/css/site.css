@@ -17,4 +17,92 @@ body {
   margin-bottom: 60px;
 }
 
+/*////////////////////////////////////////////////////////////////////////////////////*/
 
+
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Barra de navegación */
+.navbar {
+    background-color: #d2b48c; /* Café claro */
+    padding: 20px 0;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    color: #000; /* Color del texto de la barra de navegación */
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+    .nav-links li {
+        display: inline;
+        margin-left: 20px;
+    }
+
+.nav-link {
+    color: #000; /* Color del texto de los enlaces de navegación */
+    text-decoration: none;
+}
+
+    .nav-link:hover {
+        text-decoration: underline;
+    }
+
+/* Contenido principal */
+.content {
+    background-color: #fff; /* Fondo blanco */
+    padding: 50px;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-form {
+    text-align: center;
+}
+
+    .contact-form input,
+    .contact-form textarea {
+        display: block;
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .contact-form button {
+        background-color: #d2b48c; /* Café claro */
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+        .contact-form button:hover {
+            background-color: #b5947a; /* Café más oscuro al pasar el ratón */
+        }
