@@ -1,46 +1,46 @@
-/* _content/ConsumirAPI/Views/Shared/Prueba.cshtml.rz.scp.css */
+/* _content/ConsumirAPI/Views/Shared/ACatalogos.cshtml.rz.scp.css */
 /* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
-a.navbar-brand[b-mq6f4kfea0] {
+a.navbar-brand[b-bv08b25n10] {
   white-space: normal;
   text-align: center;
   word-break: break-all;
 }
 
-a[b-mq6f4kfea0] {
+a[b-bv08b25n10] {
   color: #0077cc;
 }
 
-.btn-primary[b-mq6f4kfea0] {
+.btn-primary[b-bv08b25n10] {
   color: #fff;
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
 
-.nav-pills .nav-link.active[b-mq6f4kfea0], .nav-pills .show > .nav-link[b-mq6f4kfea0] {
+.nav-pills .nav-link.active[b-bv08b25n10], .nav-pills .show > .nav-link[b-bv08b25n10] {
   color: #fff;
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
 
-.border-top[b-mq6f4kfea0] {
+.border-top[b-bv08b25n10] {
   border-top: 1px solid #e5e5e5;
 }
-.border-bottom[b-mq6f4kfea0] {
+.border-bottom[b-bv08b25n10] {
   border-bottom: 1px solid #e5e5e5;
 }
 
-.box-shadow[b-mq6f4kfea0] {
+.box-shadow[b-bv08b25n10] {
   box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
 }
 
-button.accept-policy[b-mq6f4kfea0] {
+button.accept-policy[b-bv08b25n10] {
   font-size: 1rem;
   line-height: inherit;
 }
 
-.footer[b-mq6f4kfea0] {
+.footer[b-bv08b25n10] {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -90,55 +90,6 @@ button.accept-policy[b-80j7hymn52] {
 }
 
 .footer[b-80j7hymn52] {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  line-height: 60px;
-}
-/* _content/ConsumirAPI/Views/Shared/_Layout1.cshtml.rz.scp.css */
-/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-for details on configuring this project to bundle and minify static web assets. */
-
-a.navbar-brand[b-pz2v8wxi7k] {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
-}
-
-a[b-pz2v8wxi7k] {
-  color: #0077cc;
-}
-
-.btn-primary[b-pz2v8wxi7k] {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
-}
-
-.nav-pills .nav-link.active[b-pz2v8wxi7k], .nav-pills .show > .nav-link[b-pz2v8wxi7k] {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
-}
-
-.border-top[b-pz2v8wxi7k] {
-  border-top: 1px solid #e5e5e5;
-}
-.border-bottom[b-pz2v8wxi7k] {
-  border-bottom: 1px solid #e5e5e5;
-}
-
-.box-shadow[b-pz2v8wxi7k] {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
-}
-
-button.accept-policy[b-pz2v8wxi7k] {
-  font-size: 1rem;
-  line-height: inherit;
-}
-
-.footer[b-pz2v8wxi7k] {
   position: absolute;
   bottom: 0;
   width: 100%;

@@ -56,9 +56,8 @@ C:\Users\joshu\Desktop\ConsumirAPI\ConsumirAPI\obj\Debug\net6.0\staticwebassets\
 C:\Users\joshu\Desktop\ConsumirAPI\ConsumirAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ConsumirAPI.props
 C:\Users\joshu\Desktop\ConsumirAPI\ConsumirAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ConsumirAPI.props
 C:\Users\joshu\Desktop\ConsumirAPI\ConsumirAPI\obj\Debug\net6.0\staticwebassets.pack.json
-C:\Users\joshu\Desktop\ConsumirAPI\ConsumirAPI\obj\Debug\net6.0\scopedcss\Views\Shared\Prueba.cshtml.rz.scp.css
+C:\Users\joshu\Desktop\ConsumirAPI\ConsumirAPI\obj\Debug\net6.0\scopedcss\Views\Shared\ACatalogos.cshtml.rz.scp.css
 C:\Users\joshu\Desktop\ConsumirAPI\ConsumirAPI\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
-C:\Users\joshu\Desktop\ConsumirAPI\ConsumirAPI\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout1.cshtml.rz.scp.css
 C:\Users\joshu\Desktop\ConsumirAPI\ConsumirAPI\obj\Debug\net6.0\scopedcss\bundle\ConsumirAPI.styles.css
 C:\Users\joshu\Desktop\ConsumirAPI\ConsumirAPI\obj\Debug\net6.0\scopedcss\projectbundle\ConsumirAPI.bundle.scp.css
 C:\Users\joshu\Desktop\ConsumirAPI\ConsumirAPI\obj\Debug\net6.0\Consumir.01FDE9A3.Up2Date

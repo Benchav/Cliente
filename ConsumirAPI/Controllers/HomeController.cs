@@ -18,6 +18,12 @@ namespace ConsumirAPI.Controllers
             return View();
         }
 
+        //pureba para llamar a la vista 
+        public IActionResult Redireccionando()
+        {
+            return View("ACatalogos");
+        }
+
         public IActionResult Privacy()
         {
             return View();
@@ -29,13 +35,6 @@ namespace ConsumirAPI.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
 
-
-
-        //pureba para llamar a la vista 
-        public IActionResult Indexn()
-        {
-            return View("~/Views/Shared/_Layout1.cshtml");
-        }
 
     }
 }

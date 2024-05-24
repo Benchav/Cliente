@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9E8EBBA1-2AF5-4587-AF72-DCCBECB81D03}|ConsumirAPI\\ConsumirAPI.csproj|c:\\users\\joshu\\desktop\\consumirapi\\consumirapi\\views\\shared\\prueba.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9E8EBBA1-2AF5-4587-AF72-DCCBECB81D03}|ConsumirAPI\\ConsumirAPI.csproj|solutionrelative:consumirapi\\views\\shared\\prueba.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9E8EBBA1-2AF5-4587-AF72-DCCBECB81D03}|ConsumirAPI\\ConsumirAPI.csproj|c:\\users\\joshu\\desktop\\consumirapi\\consumirapi\\views\\shared\\acatalogos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E8EBBA1-2AF5-4587-AF72-DCCBECB81D03}|ConsumirAPI\\ConsumirAPI.csproj|solutionrelative:consumirapi\\views\\shared\\acatalogos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E8EBBA1-2AF5-4587-AF72-DCCBECB81D03}|ConsumirAPI\\ConsumirAPI.csproj|c:\\users\\joshu\\desktop\\consumirapi\\consumirapi\\views\\shared\\_layout1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9E8EBBA1-2AF5-4587-AF72-DCCBECB81D03}|ConsumirAPI\\ConsumirAPI.csproj|solutionrelative:consumirapi\\views\\shared\\_layout1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9E8EBBA1-2AF5-4587-AF72-DCCBECB81D03}|ConsumirAPI\\ConsumirAPI.csproj|c:\\users\\joshu\\desktop\\consumirapi\\consumirapi\\views\\categoria\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E8EBBA1-2AF5-4587-AF72-DCCBECB81D03}|ConsumirAPI\\ConsumirAPI.csproj|solutionrelative:consumirapi\\views\\categoria\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E8EBBA1-2AF5-4587-AF72-DCCBECB81D03}|ConsumirAPI\\ConsumirAPI.csproj|c:\\users\\joshu\\desktop\\consumirapi\\consumirapi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9E8EBBA1-2AF5-4587-AF72-DCCBECB81D03}|ConsumirAPI\\ConsumirAPI.csproj|solutionrelative:consumirapi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E8EBBA1-2AF5-4587-AF72-DCCBECB81D03}|ConsumirAPI\\ConsumirAPI.csproj|c:\\users\\joshu\\desktop\\consumirapi\\consumirapi\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9E8EBBA1-2AF5-4587-AF72-DCCBECB81D03}|ConsumirAPI\\ConsumirAPI.csproj|solutionrelative:consumirapi\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9E8EBBA1-2AF5-4587-AF72-DCCBECB81D03}|ConsumirAPI\\ConsumirAPI.csproj|c:\\users\\joshu\\desktop\\consumirapi\\consumirapi\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{9E8EBBA1-2AF5-4587-AF72-DCCBECB81D03}|ConsumirAPI\\ConsumirAPI.csproj|solutionrelative:consumirapi\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E8EBBA1-2AF5-4587-AF72-DCCBECB81D03}|ConsumirAPI\\ConsumirAPI.csproj|c:\\users\\joshu\\desktop\\consumirapi\\consumirapi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E8EBBA1-2AF5-4587-AF72-DCCBECB81D03}|ConsumirAPI\\ConsumirAPI.csproj|solutionrelative:consumirapi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,71 +26,45 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "ConsumirAPI\\Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "ConsumirAPI\\Views\\_ViewStart.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-21T23:17:23.177Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "_Layout1.cshtml",
-              "DocumentMoniker": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\Views\\Shared\\_Layout1.cshtml",
-              "RelativeDocumentMoniker": "ConsumirAPI\\Views\\Shared\\_Layout1.cshtml",
-              "ToolTip": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\Views\\Shared\\_Layout1.cshtml",
-              "RelativeToolTip": "ConsumirAPI\\Views\\Shared\\_Layout1.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAAAAAAA",
+              "Title": "Crear.cshtml",
+              "DocumentMoniker": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\Views\\Categoria\\Crear.cshtml",
+              "RelativeDocumentMoniker": "ConsumirAPI\\Views\\Categoria\\Crear.cshtml",
+              "ToolTip": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\Views\\Categoria\\Crear.cshtml",
+              "RelativeToolTip": "ConsumirAPI\\Views\\Categoria\\Crear.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-21T23:15:21.718Z",
+              "WhenOpened": "2024-05-24T04:27:30.058Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "ConsumirAPI\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "ConsumirAPI\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAwwCEAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T23:04:09.534Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "ConsumirAPI\\wwwroot\\css\\site.css",
               "ToolTip": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\wwwroot\\css\\site.css",
               "RelativeToolTip": "ConsumirAPI\\wwwroot\\css\\site.css",
-              "ViewState": "AQIAAEsAAAAAAAAAAAAAAGoAAABGAAAA",
+              "ViewState": "AQIAAJYAAAAAAAAAAAAAAJ8AAABLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-05-21T20:59:58.338Z",
+              "WhenOpened": "2024-05-24T04:16:32.896Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Prueba.cshtml",
-              "DocumentMoniker": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\Views\\Shared\\Prueba.cshtml",
-              "RelativeDocumentMoniker": "ConsumirAPI\\Views\\Shared\\Prueba.cshtml",
-              "ToolTip": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\Views\\Shared\\Prueba.cshtml",
-              "RelativeToolTip": "ConsumirAPI\\Views\\Shared\\Prueba.cshtml",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAADQAAABeAAAA",
+              "Title": "ACatalogos.cshtml",
+              "DocumentMoniker": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\Views\\Shared\\ACatalogos.cshtml",
+              "RelativeDocumentMoniker": "ConsumirAPI\\Views\\Shared\\ACatalogos.cshtml",
+              "ToolTip": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\Views\\Shared\\ACatalogos.cshtml",
+              "RelativeToolTip": "ConsumirAPI\\Views\\Shared\\ACatalogos.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-21T20:56:46.344Z",
+              "WhenOpened": "2024-05-24T04:11:34.642Z",
               "EditorCaption": ""
             },
             {
@@ -109,9 +75,9 @@
               "RelativeDocumentMoniker": "ConsumirAPI\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "ConsumirAPI\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAAABQAAAAXAAAA",
+              "ViewState": "AQIAAJkAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-20T18:57:14.985Z",
+              "WhenOpened": "2024-05-24T04:09:33.844Z",
               "EditorCaption": ""
             }
           ]
