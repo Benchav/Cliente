@@ -581,6 +581,14 @@
       "PackagePath": "staticwebassets\\js\\CrudCategoria.js"
     },
     {
+      "Id": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\wwwroot\\js\\CrudRol.js",
+      "PackagePath": "staticwebassets\\js\\CrudRol.js"
+    },
+    {
+      "Id": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\wwwroot\\js\\CrudUMedida.js",
+      "PackagePath": "staticwebassets\\js\\CrudUMedida.js"
+    },
+    {
       "Id": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\wwwroot\\js\\assets\\bootstrap\\css\\bootstrap-theme.css",
       "PackagePath": "staticwebassets\\js\\assets\\bootstrap\\css\\bootstrap-theme.css"
     },

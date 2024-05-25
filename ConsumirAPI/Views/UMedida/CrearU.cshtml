@@ -1,0 +1,93 @@
+﻿@model ConsumirAPI.Models.ModeloCategoria;
+@{
+    ViewBag.Title = " CrearU";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Barra de navegación -->
+<nav class="navbar" style="background-color: #4169E1;">
+    <div class="container">
+        <div class="cent">
+            <a class="navbar-brand text-white negrita" href="//localhost:7118/Home/Redireccionando?">Insumos Barrera</a>
+        </div>
+    </div>
+</nav>
+
+<div class="content-wrapper" style="padding:14px">
+    <div class="col-sm-12">
+        <div class="card-header bg-info text-white">
+            Lista Unidad de Medida
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm-4"></div>
+                <button type="button" class="btn btn-sm btn-success" onclick="abrirPopUpForm(null)"><i class="fa fa-plus" aria-hidden="true"></i> Agregar Nuevo</button>
+            </div>
+            <hr />
+            <div class="row mt-3">
+                <div class="col-sm-12">
+                    <table id="tbdata" class="table table-striped table-bordered nowrap compact" style="width:100%">
+                        <thead>
+                            <tr>
+                                <th>Id</th>
+                                <th>TipoMedida</th>
+                                <th>Abreviatura</th>
+                                <th>Acciones</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="FormModal" tabindex="-1" role="dialog" data-backdrop="static" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header btn-info text-whide">
+                <h5 class="modal-title" id="exampleModalLabel">Rol</h5>
+                <button type="button" class="close " data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="form">
+
+                    <input type="hidden" class="form-control form-control-sm model" id="txtid" name="Id">
+
+                    <div class="form-group row">
+                        <label for="txtTipoMedida" class="col-form-label col-sm-2 col-form-label-sm">TipoMedida: <span class="error"></span></label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control form-control-sm model" id="txtTipoMedida" name="TipoMedida">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="txtAbreviatura" class="col-form-label col-sm-2 col-form-label-sm">Abreviatura: <span class="error"></span></label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control form-control-sm model" id="txtAbreviatura" name="Abreviatura">
+                        </div>
+                    </div>
+
+
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-sm btn-danger" data-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-sm btn-primary" onclick="GuardarU()">Guardar</button>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+@section Scripts {
+
+    <partial name="_ValidationScriptsPartial" />
+    <script src="~/js/CrudUMedida.js"></script>
+}

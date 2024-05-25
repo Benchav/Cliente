@@ -23,7 +23,7 @@ $(document).ready(function () {
         "columns": [
             { "data": "id" },
             { "data": "descripcion" },
-            
+
             {
                 "data": "estado", "render": function (data) {
                     if (data) {
@@ -39,7 +39,7 @@ $(document).ready(function () {
 
             {
                 "data": "id", "render": function (data, type, row, meta) {
-                    return "<button class='btn btn-primary btn-sm' type='button' onclick=' "+ "abrirPopUpForm(" + JSON.stringify(row) + ")'><i class='fas fa-pen'></i>Editar</button>" +
+                    return "<button class='btn btn-primary btn-sm' type='button' onclick=' " + "abrirPopUpForm(" + JSON.stringify(row) + ")'><i class='fas fa-pen'></i>Editar</button>" +
                         "<button class='btn btn-danger btn-sm m1-2' type='button'" + " onclick='Eliminar(" + JSON.stringify(data) + ")'><i class='fa fa-trash'></i>Eliminar</button>"
                 },
                 "orderable": false,
@@ -241,7 +241,7 @@ function abrirPopUpForm(json) {
         $("#txtFechaCreacion").val(json.fechaCreacion);
 
     } else {
-    //    $("#txtid").val(json.id);
+        //    $("#txtid").val(json.id);
         $("#txtDescripcion").val("");
         $("#cboEstado").val();
         $("#txtFechaCreacion").val();
@@ -262,7 +262,7 @@ function Guardar() {
 
         }
         jQuery.ajax({
-        url: "/Categoria/Guardar",
+            url: "/Categoria/Guardar",
             type: "PUT",
             data: request,
             success: function (data) {
