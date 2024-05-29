@@ -1,119 +1,125 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
+    position: relative;
+    min-height: 100%;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
-html {
-  position: relative;
-  min-height: 100%;
-}
-
-body {
-  margin-bottom: 60px;
-}
-
-.espacio {
-    margin-bottom:30px; 
-}
-
-.centrotexto{
-    margin-left:47%;
+/* Ocultar la columna Id en la tabla */
+th:nth-child(1), td:nth-child(1) {
+    display: none;
 }
 
 
-.centro {
-    margin-left:15%;
-}
-
-
-.cent {
-    margin-left: 44%;
-}
-
-
-.centrarDiv{
-    margin-left:40%;
-}
-
-.boton-azul {
-    color: white; /* Cambia el color del texto a blanco */
-    background-color: #4169E1; /* Cambia el color de fondo del botón a azul */
-    border: none; /* Quita el borde del botón si no lo deseas */
-    padding: 10px 20px; /* Ajusta el espaciado del botón según necesites */
-    border-radius: 5px; /* Opcional: agrega esquinas redondeadas al botón */
-}
-
-
-/*////////////////////////////////////////////////////////////////////////////////////*/
-
-
-/* Estilos generales */
 body {
     margin: 0;
-    /* font-family: Arial, sans-serif;*/
-    font-family: Thimesnewroma;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Times New Roman", Times, serif;
 }
 
-.container {
+/* Navbar */
+.navbar {
+    background-color: #4169E1;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
 }
 
-/* Barra de navegación */
-.navbar {
-    background-color: #d2b48c; /* Café claro */
-    padding: 20px 0;
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.navbar-logo {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
 }
 
 .navbar-brand {
-    font-size: 24px;
-    color: #0000FF; /* Color del texto de la barra de navegación */
-    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    white-space: nowrap;
 }
 
-.nav-links {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+/* Content Wrapper */
+.content-wrapper {
+    padding: 14px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-    .nav-links li {
-        display: inline;
-        margin-left: 20px;
-    }
-
-.nav-link {
-    color: #4169E1; /* Color del texto de los enlaces de navegación 777777777777777777777777 */
-    text-decoration: none;
+/* Table */
+.table {
+    width: 100%;
 }
 
-    .nav-link:hover {
-        text-decoration: underline;
-    }
-
-/* Contenido principal */
-.content {
-    background-color: #fff; /* Fondo blanco */
-    padding: 50px;
+/* Buttons */
+.boton-azul {
+    color: white;
+    background-color: #4169E1;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
 }
 
-.logo {
+/* Utility Classes */
+.centrotexto {
     text-align: center;
-    margin-bottom: 20px;
 }
 
-.about {
-    text-align: center;
+.espacio {
     margin-bottom: 30px;
-  
 }
 
+.centro {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cent {
+    text-align: center;
+}
+
+.centrarDiv {
+    text-align: center;
+}
+
+.mx-auto {
+    margin: 0 auto;
+}
+
+.bg-primary-custom {
+    background-color: #4169E1;
+}
+
+/* Additional Styles for Form and Buttons */
 .contact-form {
     text-align: center;
 }
@@ -129,7 +135,7 @@ body {
     }
 
     .contact-form button {
-        background-color: #d2b48c; /* Café claro */
+        background-color: #d2b48c;
         color: #fff;
         border: none;
         padding: 10px 20px;
@@ -138,38 +144,42 @@ body {
     }
 
         .contact-form button:hover {
-            background-color: #b5947a; /* Café más oscuro al pasar el ratón */
+            background-color: #b5947a;
         }
 
-
-.bg-primary-custom {
-     background-color: #4169E1;
-    
-}
-
-/*//////////////////////////////////////////////////////////////////7 fila y columnas centradas*/
-
+/* Navigation List */
 .nav-list {
-    list-style-type: none; /* Quita los marcadores de lista */
-    margin: 0; /* Quita el margen */
-    padding: 0; /* Quita el relleno */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
     .nav-list li {
-        display: inline-block; /* Hace que los elementos de la lista se muestren en línea */
-        margin-right: 20px; /* Ajusta el margen entre los elementos según sea necesario */
+        display: inline-block;
+        margin-right: 20px;
     }
 
 .nav-link {
-    color: blue; /* Cambia el color del texto a azul */
-    font-weight: bold; /* Hace que el texto esté en negrita */
-    text-decoration: none; /* Quita el subrayado del enlace */
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
 }
 
     .nav-link:hover {
-        text-decoration: underline; /* Subraya el enlace al pasar el ratón por encima */
+        text-decoration: underline;
     }
 
 .negrita {
-    font-weight: bold; /* Hace que el texto esté en negrita */
+    font-weight: bold;
+}
+
+
+
+
+/*// logo center ellipse centro de label pagina */
+.logo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20px 0; /* Ajusta el margen según sea necesario */
 }

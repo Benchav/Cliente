@@ -21,12 +21,20 @@
     }
     @if (currentAction == "index" || currentAction == "")
     {
+ 
         <!-- Barra de navegación -->
         <nav class="navbar" style="background-color: #4169E1;">
             <div class="container">
-                <div class="cent">
-                <a class="navbar-brand text-white negrita" href="Home">Insumos Barrera</a>
-                </div> 
+                <div class="navbar-left">
+                    <a href="Home">
+                        <img class="navbar-logo" src="https://images.vexels.com/media/users/3/235848/isolated/preview/4b62529b242dcef2dbc6719899ecdd6e-gorro-de-cocinero-de-cocina.png" alt="Logo">
+                    </a>
+                </div>
+                <div class="navbar-center">
+                    <a class="navbar-brand text-white negrita" href="Home">
+                        Insumos Barrera
+                    </a>
+                </div>
             </div>
         </nav>
 
@@ -36,14 +44,16 @@
             <!-- Masthead Subheading-->
             <p class="masthead-subheading font-weight-light mb-0 text-white">Bienvenidos</p>
         </header>
-        @*   <div class="container d-flex align-items-center flex-column"> *@
 
+        <div class="espacio"></div>
 
         <!-- Contenido principal -->
         <div class="content" style="background-color: #D3D3D3;">
+
+
             <div class="logo">
                 <!-- Aquí puedes insertar el logotipo de tu empresa -->
-                <img class="masthead-avatar mb-1" src="https://images.vexels.com/media/users/3/235848/isolated/preview/4b62529b242dcef2dbc6719899ecdd6e-gorro-de-cocinero-de-cocina.png" alt="..." />
+                <img class="masthead-avatar mb-1" src="https://images.vexels.com/media/users/3/235848/isolated/preview/4b62529b242dcef2dbc6719899ecdd6e-gorro-de-cocinero-de-cocina.png" alt="Logo" />
                 <!-- Fin-->
             </div>
 
@@ -59,7 +69,7 @@
                         </div>
                         <div class="modal-body">
                             <div class="contact-form text-white">
-                                <h2>Iniciar sesión</h2>
+                                @* <h2>Iniciar sesión</h2> *@
 
                                 <form id="login-form" method="get">
                                     <input type="text" placeholder="Usuario">
@@ -87,7 +97,7 @@
                     </div>
                     <div class="modal-body">
                         <div class="contact-form text-white">
-                            <h2>Iniciar sesión</h2>
+                          @*   <h2>Registrarse</h2> *@
 
                             <form id="login-form" method="get">
                                 <input type="text" placeholder="Usuario">
@@ -132,8 +142,11 @@
                 <div class="centro">
                 <p>Insumos Barrea es una empresa que ha venido creciendo con el paso del tiempo de manera favorable, garantizando fidelidad y compromiso con sus clientes.</p>
                 </div>
+                   @*  <div class="espacio"></div> *@
+                    <div class="centro">
+                        <p>"Nos puedes ubicar de donde fue ferreteria Armando Siu 2 al este, para mas información llamar al numero 29873289"</p>
+                    </div>
             </nav>
-    
 
     }
 
