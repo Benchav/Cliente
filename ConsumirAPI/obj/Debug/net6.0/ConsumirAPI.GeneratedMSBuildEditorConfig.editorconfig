@@ -22,12 +22,20 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXENyZWFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/joshu/Desktop/ConsumirAPI/ConsumirAPI/Views/Cliente/CrearC.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxDcmVhckMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/joshu/Desktop/ConsumirAPI/ConsumirAPI/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/joshu/Desktop/ConsumirAPI/ConsumirAPI/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/joshu/Desktop/ConsumirAPI/ConsumirAPI/Views/Proveedor/CrearP.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmVlZG9yXENyZWFyUC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/joshu/Desktop/ConsumirAPI/ConsumirAPI/Views/Rol/CrearRol.cshtml]
@@ -44,6 +52,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/joshu/Desktop/ConsumirAPI/ConsumirAPI/Views/UMedida/CrearU.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVU1lZGlkYVxDcmVhclUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/joshu/Desktop/ConsumirAPI/ConsumirAPI/Views/Usuario/CrearUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xDcmVhclVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/joshu/Desktop/ConsumirAPI/ConsumirAPI/Views/_ViewImports.cshtml]

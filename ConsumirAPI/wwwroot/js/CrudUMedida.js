@@ -229,7 +229,7 @@ function abrirPopUpForm(json) {
 
     } else {
         $("#txtTipoMedida").val("");
-        $("#txtAbreviatura").val();
+        $("#txtAbreviatura").val("");
     }
 
     $('#FormModal').modal('show');
@@ -241,8 +241,8 @@ function GuardarU() {
     if ($("#form").valid()) {
         var request = {
             id: $("#txtid").val(),
-            descripcion: ($("#txtTipoMedida").val() != "" ? $("#txtTipoMedida").val() : ""),
-            fechaCreacion: ($("#txtAbreviatura").val() != "" ? $("#txtAbreviatura").val() : ""),
+            tipomedida: ($("#txtTipoMedida").val() != "" ? $("#txtTipoMedida").val() : ""),
+            abreviatura: ($("#txtAbreviatura").val() != "" ? $("#txtAbreviatura").val() : ""),
 
         }
         jQuery.ajax({

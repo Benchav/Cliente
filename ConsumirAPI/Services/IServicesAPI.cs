@@ -22,5 +22,27 @@ namespace ConsumirAPI.Servicios
         public Task<bool> EditarU(ModeloUMedida mc);
         public Task<bool> InsertarU(ModeloUMedida mc);
         public Task<bool> DeleteU(Guid Id);
+
+
+        //Usuario
+        // hay que ver como hacerlo funcional ya que es un cat secundario """"
+
+        public Task<List<ModeloUsuario>> ListaUs();
+        public Task<bool> EditarUs(ModeloUsuario mc);
+        public Task<bool> InsertarUs(ModeloUsuario mc);
+        public Task<bool> DeleteUs(Guid Id);
+
+        //PROVEEDOR
+        public Task<List<ModeloProveedor>> ListarP();
+        public Task<bool> EditarP(ModeloProveedor mc);
+        public Task<bool> InsertarP(ModeloProveedor mc);
+        public Task<bool> DeleteP(Guid Id);
+
+        //CLIENTE
+        public Task<List<ModeloCliente>> ListarC();
+        public Task<bool> EditarC(ModeloCliente mc);
+        public Task<bool> InsertarC(ModeloCliente mc);
+        public Task<bool> DeleteC(Guid Id);
+
     }
 }

@@ -231,5 +231,213 @@ namespace ConsumirAPI.Servicios
         }
 
 
+        // USUARIO
+        public async Task<List<ModeloUsuario>> ListaUs()
+        {
+            List<ModeloUsuario> lista = new List<ModeloUsuario>();
+
+            var cliente = new HttpClient();
+            cliente.BaseAddress = new Uri(_baseurl);
+
+            var response = await cliente.GetAsync("/Usuario/listar");
+            if (response.IsSuccessStatusCode)
+            {
+                var json_respuesta = await response.Content.ReadAsStringAsync();
+                var resultado = JsonConvert.DeserializeObject<List<ModeloUsuario>>(json_respuesta);
+
+                lista = resultado;
+            }
+            return lista;
+        }
+
+
+        public async Task<bool> EditarUs(ModeloUsuario mc)
+        {
+            bool respuesta = false;
+
+            var cliente = new HttpClient();
+            cliente.BaseAddress = new Uri(_baseurl);
+            var content = new StringContent(JsonConvert.SerializeObject(mc), Encoding.UTF8, "application/json");
+
+            var response = await cliente.PutAsync("/Usuario/Modificar", content);
+            if (response.IsSuccessStatusCode)
+            {
+                respuesta = true;
+            }
+            return respuesta;
+        }
+
+
+        public async Task<bool> InsertarUs(ModeloUsuario mc)
+        {
+            bool respuesta = false;
+
+            var cliente = new HttpClient();
+            cliente.BaseAddress = new Uri(_baseurl);
+            var content = new StringContent(JsonConvert.SerializeObject(mc), Encoding.UTF8, "application/json");
+
+            var response = await cliente.PostAsync("/Usuario/Agregar/", content);
+            if (response.IsSuccessStatusCode)
+            {
+                respuesta = true;
+            }
+            return respuesta;
+        }
+
+
+        public async Task<bool> DeleteUs(Guid Id)
+        {
+            bool respuesta = false;
+
+            var cliente = new HttpClient();
+            cliente.BaseAddress = new Uri(_baseurl);
+
+            var response = await cliente.DeleteAsync($"/Usuario/Eliminar/{Id}");
+            if (response.IsSuccessStatusCode)
+            {
+                respuesta = true;
+            }
+            return respuesta;
+        }
+
+
+        // PROVEEDOR
+        public async Task<List<ModeloProveedor>> ListarP()
+        {
+            List<ModeloProveedor> lista = new List<ModeloProveedor>();
+
+            var cliente = new HttpClient();
+            cliente.BaseAddress = new Uri(_baseurl);
+
+            var response = await cliente.GetAsync("/Proveedor/listar");
+            if (response.IsSuccessStatusCode)
+            {
+                var json_respuesta = await response.Content.ReadAsStringAsync();
+                var resultado = JsonConvert.DeserializeObject<List<ModeloProveedor>>(json_respuesta);
+
+                lista = resultado;
+            }
+            return lista;
+        }
+
+
+        public async Task<bool> EditarP(ModeloProveedor mc)
+        {
+            bool respuesta = false;
+
+            var cliente = new HttpClient();
+            cliente.BaseAddress = new Uri(_baseurl);
+            var content = new StringContent(JsonConvert.SerializeObject(mc), Encoding.UTF8, "application/json");
+
+            var response = await cliente.PutAsync("/Proveedor/Modificar", content);
+            if (response.IsSuccessStatusCode)
+            {
+                respuesta = true;
+            }
+            return respuesta;
+        }
+
+
+        public async Task<bool> InsertarP(ModeloProveedor mc)
+        {
+            bool respuesta = false;
+
+            var cliente = new HttpClient();
+            cliente.BaseAddress = new Uri(_baseurl);
+            var content = new StringContent(JsonConvert.SerializeObject(mc), Encoding.UTF8, "application/json");
+
+            var response = await cliente.PostAsync("/Proveedor/Agregar/", content);
+            if (response.IsSuccessStatusCode)
+            {
+                respuesta = true;
+            }
+            return respuesta;
+        }
+
+
+        public async Task<bool> DeleteP(Guid Id)
+        {
+            bool respuesta = false;
+
+            var cliente = new HttpClient();
+            cliente.BaseAddress = new Uri(_baseurl);
+
+            var response = await cliente.DeleteAsync($"/Proveedor/Eliminar/{Id}");
+            if (response.IsSuccessStatusCode)
+            {
+                respuesta = true;
+            }
+            return respuesta;
+        }
+
+        // CLIENTE
+        public async Task<List<ModeloCliente>> ListarC()
+        {
+            List<ModeloCliente> lista = new List<ModeloCliente>();
+
+            var cliente = new HttpClient();
+            cliente.BaseAddress = new Uri(_baseurl);
+
+            var response = await cliente.GetAsync("/Cliente/listar");
+            if (response.IsSuccessStatusCode)
+            {
+                var json_respuesta = await response.Content.ReadAsStringAsync();
+                var resultado = JsonConvert.DeserializeObject<List<ModeloCliente>>(json_respuesta);
+
+                lista = resultado;
+            }
+            return lista;
+        }
+
+
+        public async Task<bool> EditarC(ModeloCliente mc)
+        {
+            bool respuesta = false;
+
+            var cliente = new HttpClient();
+            cliente.BaseAddress = new Uri(_baseurl);
+            var content = new StringContent(JsonConvert.SerializeObject(mc), Encoding.UTF8, "application/json");
+
+            var response = await cliente.PutAsync("/Cliente/Modificar", content);
+            if (response.IsSuccessStatusCode)
+            {
+                respuesta = true;
+            }
+            return respuesta;
+        }
+
+
+        public async Task<bool> InsertarC(ModeloCliente mc)
+        {
+            bool respuesta = false;
+
+            var cliente = new HttpClient();
+            cliente.BaseAddress = new Uri(_baseurl);
+            var content = new StringContent(JsonConvert.SerializeObject(mc), Encoding.UTF8, "application/json");
+
+            var response = await cliente.PostAsync("/Cliente/Agregar/", content);
+            if (response.IsSuccessStatusCode)
+            {
+                respuesta = true;
+            }
+            return respuesta;
+        }
+
+
+        public async Task<bool> DeleteC(Guid Id)
+        {
+            bool respuesta = false;
+
+            var cliente = new HttpClient();
+            cliente.BaseAddress = new Uri(_baseurl);
+
+            var response = await cliente.DeleteAsync($"/Cliente/Eliminar/{Id}");
+            if (response.IsSuccessStatusCode)
+            {
+                respuesta = true;
+            }
+            return respuesta;
+        }
+
     }
 }

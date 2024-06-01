@@ -581,12 +581,24 @@
       "PackagePath": "staticwebassets\\js\\CrudCategoria.js"
     },
     {
+      "Id": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\wwwroot\\js\\CrudCliente.js",
+      "PackagePath": "staticwebassets\\js\\CrudCliente.js"
+    },
+    {
+      "Id": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\wwwroot\\js\\CrudProveedor.js",
+      "PackagePath": "staticwebassets\\js\\CrudProveedor.js"
+    },
+    {
       "Id": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\wwwroot\\js\\CrudRol.js",
       "PackagePath": "staticwebassets\\js\\CrudRol.js"
     },
     {
       "Id": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\wwwroot\\js\\CrudUMedida.js",
       "PackagePath": "staticwebassets\\js\\CrudUMedida.js"
+    },
+    {
+      "Id": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\wwwroot\\js\\CrudUsuario.js",
+      "PackagePath": "staticwebassets\\js\\CrudUsuario.js"
     },
     {
       "Id": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\wwwroot\\js\\assets\\bootstrap\\css\\bootstrap-theme.css",
