@@ -1,0 +1,112 @@
+﻿@model List<ConsumirAPI.Models.ModeloProducto>
+@{
+    ViewBag.Title = "Facturacion";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Barra de navegación -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="Home">
+            <img src="https://images.vexels.com/media/users/3/235848/isolated/preview/4b62529b242dcef2dbc6719899ecdd6e-gorro-de-cocinero-de-cocina.png" alt="Logo" width="30" height="30">
+        </a>
+        <a class="navbar-brand" href="//localhost:7118/Home/Redireccionando?">Insumos Barrera</a>
+    </div>
+</nav>
+
+<!-- Contenido principal -->
+<div class="content-wrapper" style="padding: 20px;">
+    <div class="container">
+        <h2>Facturación de Productos</h2>
+        <hr />
+
+        <!-- Formulario para agregar productos a la factura -->
+        <div class="card mb-4">
+            <div class="card-header bg-info text-white">Agregar Producto a la Factura</div>
+            <div class="card-body">
+                <form id="formAgregarProducto">
+                    <div class="form-group row">
+                        <label for="productoId" class="col-sm-2 col-form-label col-form-label-sm">Producto:</label>
+                        <div class="col-sm-10">
+                            <select class="form-control form-control-sm" id="productoId" name="productoId">
+                                @foreach (var producto in Model)
+                                {
+                                    <option value="@producto.Id">@producto.Nombre</option>
+                                }
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="cantidad" class="col-sm-2 col-form-label col-form-label-sm">Cantidad:</label>
+                        <div class="col-sm-10">
+                            <input type="number" class="form-control form-control-sm" id="cantidad" name="cantidad" min="1">
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-sm btn-success" onclick="agregarProducto()">Agregar a la Factura</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Tabla de productos en la factura -->
+        <div class="card mb-4">
+            <div class="card-header bg-info text-white">Productos en la Factura</div>
+            <div class="card-body">
+                <table id="tablaFactura" class="table table-striped table-bordered nowrap compact" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Nombre</th>
+                            <th>Descripción</th>
+                            <th>Precio</th>
+                            <th>Cantidad</th>
+                            <th>Subtotal</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Resumen de la factura -->
+        <div class="card">
+            <div class="card-header bg-info text-white">Resumen de la Factura</div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h5>Total a Pagar: $<span id="totalPagar">0.00</span></h5>
+                    </div>
+                    <div class="col-sm-6 text-right">
+                        <button type="button" class="btn btn-sm btn-primary" onclick="finalizarFactura()">Finalizar Factura</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal para confirmar la eliminación de un producto -->
+<div class="modal fade" id="confirmarEliminarModal" tabindex="-1" role="dialog" data-backdrop="static" aria-labelledby="confirmarEliminarLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header btn-danger text-white">
+                <h5 class="modal-title" id="confirmarEliminarLabel">Confirmar Eliminación</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                ¿Está seguro de que desea eliminar este producto de la factura?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-sm btn-secondary" data-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-sm btn-danger" onclick="eliminarProducto()">Eliminar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script src="~/js/Factura.js"></script>
+}

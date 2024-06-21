@@ -285,7 +285,7 @@ function Eliminar($Id) {
     }).then((result) => {
         if (result.isConfirmed) {
             jQuery.ajax({
-                url: "/UMedida/EliminarU?id=" + $Id,
+                url: "/UMedida/EliminaU?id=" + $Id,
                 type: "DELETE",
                 dataType: "json",
                 contentType: "application/json; charset=utf-8",

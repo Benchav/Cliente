@@ -439,5 +439,76 @@ namespace ConsumirAPI.Servicios
             return respuesta;
         }
 
+
+
+        // PROD
+        //public async Task<List<ModeloProducto>> ObtenerProductos()
+        //{
+        //    List<ModeloProducto> lista = new List<ModeloProducto>();
+
+        //    var cliente = new HttpClient();
+        //    cliente.BaseAddress = new Uri(_baseurl);
+
+        //    var response = await cliente.GetAsync("/Cliente/listar");
+        //    if (response.IsSuccessStatusCode)
+        //    {
+        //        var json_respuesta = await response.Content.ReadAsStringAsync();
+        //        var resultado = JsonConvert.DeserializeObject<List<ModeloProducto>>(json_respuesta);
+
+        //        lista = resultado;
+        //    }
+        //    return lista;
+        //}
+
+
+        //public async Task<bool> EditarC(ModeloCliente mc)
+        //{
+        //    bool respuesta = false;
+
+        //    var cliente = new HttpClient();
+        //    cliente.BaseAddress = new Uri(_baseurl);
+        //    var content = new StringContent(JsonConvert.SerializeObject(mc), Encoding.UTF8, "application/json");
+
+        //    var response = await cliente.PutAsync("/Cliente/Modificar", content);
+        //    if (response.IsSuccessStatusCode)
+        //    {
+        //        respuesta = true;
+        //    }
+        //    return respuesta;
+        //}
+
+
+        //public async Task<bool> InsertarC(ModeloCliente mc)
+        //{
+        //    bool respuesta = false;
+
+        //    var cliente = new HttpClient();
+        //    cliente.BaseAddress = new Uri(_baseurl);
+        //    var content = new StringContent(JsonConvert.SerializeObject(mc), Encoding.UTF8, "application/json");
+
+        //    var response = await cliente.PostAsync("/Cliente/Agregar/", content);
+        //    if (response.IsSuccessStatusCode)
+        //    {
+        //        respuesta = true;
+        //    }
+        //    return respuesta;
+        //}
+
+
+        //public async Task<bool> DeleteC(Guid Id)
+        //{
+        //    bool respuesta = false;
+
+        //    var cliente = new HttpClient();
+        //    cliente.BaseAddress = new Uri(_baseurl);
+
+        //    var response = await cliente.DeleteAsync($"/Cliente/Eliminar/{Id}");
+        //    if (response.IsSuccessStatusCode)
+        //    {
+        //        respuesta = true;
+        //    }
+        //    return respuesta;
+        //}
+
     }
 }

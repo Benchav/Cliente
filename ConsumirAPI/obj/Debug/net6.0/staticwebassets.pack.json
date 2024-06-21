@@ -601,6 +601,10 @@
       "PackagePath": "staticwebassets\\js\\CrudUsuario.js"
     },
     {
+      "Id": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\wwwroot\\js\\Factura.js",
+      "PackagePath": "staticwebassets\\js\\Factura.js"
+    },
+    {
       "Id": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\wwwroot\\js\\assets\\bootstrap\\css\\bootstrap-theme.css",
       "PackagePath": "staticwebassets\\js\\assets\\bootstrap\\css\\bootstrap-theme.css"
     },

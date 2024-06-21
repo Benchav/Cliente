@@ -44,5 +44,13 @@ namespace ConsumirAPI.Servicios
         public Task<bool> InsertarC(ModeloCliente mc);
         public Task<bool> DeleteC(Guid Id);
 
+
+
+        ////PRODUC
+        //public Task<List<ModeloProducto>> ObtenerProductos();
+        //public Task<bool> Edi(Prod mc);
+        //public Task<bool> Inse(Prod mc);
+        //public Task<bool> Del(Guid Id);
+
     }
 }

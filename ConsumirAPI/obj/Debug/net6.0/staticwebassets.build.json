@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cE+3HrVsGVyk6hYsVnufDu+3FZrF/1UvfwxZRzenGUA=",
+  "Hash": "DoD76QKVBcBpJX+4Dr1pviOe3+e1FP6OWNEhIp+GIB0=",
   "Source": "ConsumirAPI",
   "BasePath": "_content/ConsumirAPI",
   "Mode": "Default",
@@ -3264,6 +3264,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\CrudUsuario.js"
+    },
+    {
+      "Identity": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\wwwroot\\js\\Factura.js",
+      "SourceId": "ConsumirAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\wwwroot\\",
+      "BasePath": "_content/ConsumirAPI",
+      "RelativePath": "js/Factura.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Factura.js"
     },
     {
       "Identity": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\wwwroot\\js\\site.js",
