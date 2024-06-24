@@ -29,11 +29,11 @@ function obtenerProductoPorId(id) {
     // Esta función debería obtener el producto por Id desde tu fuente de datos
     // Aquí hay un ejemplo básico con datos estáticos
     const productos = [
-        { Id: 1, Nombre: 'Mantequilla', Descripcion: '1 libra', Precio: 25.00 },
-        { Id: 2, Nombre: 'Arina', Descripcion: '1 saco de arina', Precio: 300.00 },
-        { Id: 3, Nombre: 'Azucar', Descripcion: '1 libra', Precio: 30.00 },
-        { Id: 4, Nombre: 'Levadura', Descripcion: '1 libra', Precio: 24.00 },
-        { Id: 5, Nombre: 'Sopa de Marisco', Descripcion: 'rikitiksi', Precio: 108.00 },
+        { Id: 1, Nombre: 'Mantequilla', Descripcion: 'libra', Precio: 25.00 },
+        { Id: 2, Nombre: 'Arina', Descripcion: ' saco de arina', Precio: 300.00 },
+        { Id: 3, Nombre: 'Azucar', Descripcion: 'libra', Precio: 30.00 },
+        { Id: 4, Nombre: 'Levadura', Descripcion: 'libra', Precio: 24.00 },
+        { Id: 5, Nombre: 'Colorante', Descripcion: 'litro', Precio: 50.00 },
     ];
     return productos.find(p => p.Id == id);
 }

@@ -21,7 +21,6 @@
     }
     @if (currentAction == "index" || currentAction == "")
     {
- 
         <!-- Barra de navegación -->
         <nav class="navbar" style="background-color: #4169E1;">
             <div class="container">
@@ -82,7 +81,7 @@
                     </div>
                 </div>
             </div>
-          
+
 
 
         </div>
@@ -97,7 +96,7 @@
                     </div>
                     <div class="modal-body">
                         <div class="contact-form text-white">
-                          @*   <h2>Registrarse</h2> *@
+                            @*   <h2>Registrarse</h2> *@
 
                             <form id="login-form" method="get">
                                 <input type="text" placeholder="Usuario">
@@ -116,37 +115,31 @@
 
             <button id="registrarBtn" class="boton-azul">Registrarse</button>
         </div>
-        
-          
-            <script>
-                document.getElementById('iniciarBtn').addEventListener('click', function () {
-                    $('#LoginFormModal').modal('show');
-                });
-            </script>
 
-            <script>
-                document.getElementById('registrarBtn').addEventListener('click', function () {
+
+        <script>
+            document.getElementById('iniciarBtn').addEventListener('click', function () {
+                $('#LoginFormModal').modal('show');
+            });
+        </script>
+
+        <script>
+            document.getElementById('registrarBtn').addEventListener('click', function () {
                 $('#RegisterFormModal').modal('show');
-                });
-            </script>
+            });
+        </script>
 
 
         <div class="espacio"></div>
 
-           <nav class="navbar" style="background-color: #4169E1;">
-                <div class="container">
-        <div class="about text-white">
-                    <div class="centro">
-                <h3>"Acerca de Insumos Barrera"</h3>  
-                </div>
-                <div class="centro">
+        <nav class="navbar" style="background-color: #4169E1;">
+            <div class="container d-flex flex-column align-items-center text-center text-white">
+                <h3>"Acerca de Insumos Barrera"</h3>
                 <p>Insumos Barrea es una empresa que ha venido creciendo con el paso del tiempo de manera favorable, garantizando fidelidad y compromiso con sus clientes.</p>
-                </div>
-                   @*  <div class="espacio"></div> *@
-                    <div class="centro">
-                        <p>"Nos puedes ubicar de la sorbeteria herrera 1 cuadra al oeste media al sur, Para mayor información nos puedes llamar al numero 29873289"</p>
-                    </div>
-            </nav>
+                <p>"Nos puedes ubicar de la sorbeteria herrera 1 cuadra al oeste media al sur, Para mayor información nos puedes llamar al numero 29873289"</p>
+            </div>
+        </nav>
+
 
     }
 

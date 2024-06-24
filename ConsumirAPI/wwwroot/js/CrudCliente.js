@@ -241,10 +241,10 @@ function abrirPopUpForm(json) {
     if (json != null) {
 
         $("#txtid").val(json.id);
-        $("#txtPrimerNombre").val(json.primernombre);
-        $("#txtSegundoNombre").val(json.segundonombre);
-        $("#txtPrimerApellido").val(json.primerapellido);
-        $("#txtSegundoApellido").val(json.segundoapellido);
+        $("#txtPrimerNombre").val(json.primerNombre);
+        $("#txtSegundoNombre").val(json.segundoNombre);
+        $("#txtPrimerApellido").val(json.primerApellido);
+        $("#txtSegundoApellido").val(json.segundoApellido);
         $("#txtCorreo").val(json.correo);
         $("#txtTelefono").val(json.telefono);
         $("#cboEstado").val(json.estado == true ? 1 : 0);

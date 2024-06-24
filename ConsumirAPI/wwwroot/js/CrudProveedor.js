@@ -238,7 +238,7 @@ function abrirPopUpForm(json) {
     if (json != null) {
 
         $("#txtid").val(json.id);
-        $("#txtNombreCompañia").val(json.nombrecompañia);
+        $("#txtNombreCompañia").val(json.nombreCompañia);
         $("#txtCorreo").val(json.correo);
         $("#txtTelefono").val(json.telefono);
         $("#cboEstado").val(json.estado == true ? 1 : 0);

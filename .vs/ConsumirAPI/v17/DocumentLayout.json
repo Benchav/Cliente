@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9E8EBBA1-2AF5-4587-AF72-DCCBECB81D03}|ConsumirAPI\\ConsumirAPI.csproj|c:\\users\\joshu\\desktop\\consumirapi\\consumirapi\\views\\shared\\acatalogos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9E8EBBA1-2AF5-4587-AF72-DCCBECB81D03}|ConsumirAPI\\ConsumirAPI.csproj|solutionrelative:consumirapi\\views\\shared\\acatalogos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E8EBBA1-2AF5-4587-AF72-DCCBECB81D03}|ConsumirAPI\\ConsumirAPI.csproj|c:\\users\\joshu\\desktop\\consumirapi\\consumirapi\\wwwroot\\js\\factura.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{9E8EBBA1-2AF5-4587-AF72-DCCBECB81D03}|ConsumirAPI\\ConsumirAPI.csproj|solutionrelative:consumirapi\\wwwroot\\js\\factura.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{9E8EBBA1-2AF5-4587-AF72-DCCBECB81D03}|ConsumirAPI\\ConsumirAPI.csproj|c:\\users\\joshu\\desktop\\consumirapi\\consumirapi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E8EBBA1-2AF5-4587-AF72-DCCBECB81D03}|ConsumirAPI\\ConsumirAPI.csproj|solutionrelative:consumirapi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E8EBBA1-2AF5-4587-AF72-DCCBECB81D03}|ConsumirAPI\\ConsumirAPI.csproj|c:\\users\\joshu\\desktop\\consumirapi\\consumirapi\\controllers\\facturacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E8EBBA1-2AF5-4587-AF72-DCCBECB81D03}|ConsumirAPI\\ConsumirAPI.csproj|solutionrelative:consumirapi\\controllers\\facturacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E8EBBA1-2AF5-4587-AF72-DCCBECB81D03}|ConsumirAPI\\ConsumirAPI.csproj|c:\\users\\joshu\\desktop\\consumirapi\\consumirapi\\wwwroot\\js\\factura.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{9E8EBBA1-2AF5-4587-AF72-DCCBECB81D03}|ConsumirAPI\\ConsumirAPI.csproj|solutionrelative:consumirapi\\wwwroot\\js\\factura.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +22,45 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Factura.js",
-              "DocumentMoniker": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\wwwroot\\js\\Factura.js",
-              "RelativeDocumentMoniker": "ConsumirAPI\\wwwroot\\js\\Factura.js",
-              "ToolTip": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\wwwroot\\js\\Factura.js",
-              "RelativeToolTip": "ConsumirAPI\\wwwroot\\js\\Factura.js",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwCMAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-06-11T22:39:09.072Z"
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ConsumirAPI\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ConsumirAPI\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T00:56:27.45Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "FacturacionController.cs",
               "DocumentMoniker": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\Controllers\\FacturacionController.cs",
               "RelativeDocumentMoniker": "ConsumirAPI\\Controllers\\FacturacionController.cs",
               "ToolTip": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\Controllers\\FacturacionController.cs",
               "RelativeToolTip": "ConsumirAPI\\Controllers\\FacturacionController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAQAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T22:34:18.412Z"
+              "WhenOpened": "2024-06-24T16:56:13.971Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ACatalogos.cshtml",
-              "DocumentMoniker": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\Views\\Shared\\ACatalogos.cshtml",
-              "RelativeDocumentMoniker": "ConsumirAPI\\Views\\Shared\\ACatalogos.cshtml",
-              "ToolTip": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\Views\\Shared\\ACatalogos.cshtml",
-              "RelativeToolTip": "ConsumirAPI\\Views\\Shared\\ACatalogos.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-11T21:32:51.749Z",
+              "DocumentIndex": 2,
+              "Title": "Factura.js",
+              "DocumentMoniker": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\wwwroot\\js\\Factura.js",
+              "RelativeDocumentMoniker": "ConsumirAPI\\wwwroot\\js\\Factura.js",
+              "ToolTip": "C:\\Users\\joshu\\Desktop\\ConsumirAPI\\ConsumirAPI\\wwwroot\\js\\Factura.js",
+              "RelativeToolTip": "ConsumirAPI\\wwwroot\\js\\Factura.js",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB8AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-11T22:39:09.072Z",
               "EditorCaption": ""
             }
           ]
